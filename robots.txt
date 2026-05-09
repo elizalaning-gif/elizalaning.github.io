@@ -1,3 +1,33 @@
+# robots.txt for https://elizalaning.github.io/
+# Generated: 2025-05-10
+ 
+# Allow all major search engine crawlers
+User-agent: Googlebot
+Allow: /
+ 
+User-agent: Bingbot
+Allow: /
+ 
+User-agent: Slurp
+Allow: /
+ 
+User-agent: DuckDuckBot
+Allow: /
+ 
+User-agent: Baiduspider
+Allow: /
+ 
+User-agent: YandexBot
+Allow: /
+ 
+# Allow all other crawlers by default
 User-agent: *
 Allow: /
+ 
+# Disallow any future admin or draft directories
+Disallow: /drafts/
+Disallow: /admin/
+Disallow: /private/
+ 
+# Sitemap location
 Sitemap: https://elizalaning.github.io/sitemap.xml
