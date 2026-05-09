@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://elizalaning.github.io/sitemap.xml
